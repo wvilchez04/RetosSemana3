@@ -1,9 +1,29 @@
+@media screen and (min-width: 480px) {
+    #responsive , #standard , #design {
+        border: 2px solid black;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .seccion{
+        border: 5px solid gray;
+    }
+}
+
+@font-face {
+    /* nombre, como lo vamos a utilizar */
+    font-family: 'mifuente';
+    src: url('../assets/fonts/static/RobotoSlab-Light.ttf');
+}
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+}
+#opciones{
+    text-align: center;
 }
 .contenedor{
     display: flex;
@@ -51,12 +71,12 @@
     justify-content:space-around;
 }
 #responsive{
-margin-right: 10px;
-border: 2px solid gray;
-display: flex;
-flex-direction: column;
-align-items: center;
-flex-grow: 1;
+    margin-right: 10px;
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
 }
 #parrafo{
     font-size: 18px;
@@ -79,14 +99,82 @@ flex-grow: 1;
     align-items: center;
     flex-grow: 1;
 }
-@media screen and (min-width: 480px) {
-    #responsive , #standard , #design {
-        border: 2px solid black;
-        margin-bottom: 20px;
-    }
+
+#menu{
+    background-color:darkblue;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    margin-bottom: 0;
+    padding: 0 10%;
 }
-@media screen and (max-width: 900px) {
-    .seccion{
-        border: 5px solid gray;
-    }
+
+#menu > a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    flex-basis: 25%;
+    padding: 10px 15px;
 }
+
+#menu > a:hover{
+    background-color: rgb(50, 26, 75);
+}
+
+h4{
+    text-align: center;
+    color: dimgray;
+    font-size: 30px;
+    font-family: 'mifuente';
+}
+h3{
+    height: 50px;
+}
+.pagina{
+    display: flex;
+    padding: 0 10%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.articulo{
+    flex-basis: 25vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.articulo img{
+    flex-basis: 100%;
+    height: 55%;
+    width: 25%;
+}
+.articulo button{
+    flex-basis: 100%;
+    background-color: rgb(7, 133, 105);
+    color: white;
+    padding: 15px;
+    border: none;
+}
+
+.descripcion{
+    text-align: center;
+}
+.descripcion > p{
+    font-size: 12px;
+    height: 50px;
+}
+
+.detalles{
+    display: flex;
+    justify-content: space-between;
+}
+
+.detalles > p{
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: rgb(235, 235, 235);
+    padding: 5px;
+}    
+
