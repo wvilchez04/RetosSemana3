@@ -1,15 +1,3 @@
-@media screen and (min-width: 480px) {
-    #responsive , #standard , #design {
-        border: 2px solid black;
-        margin-bottom: 20px;
-    }
-}
-@media screen and (max-width: 900px) {
-    .seccion{
-        border: 5px solid gray;
-    }
-}
-
 @font-face {
     /* nombre, como lo vamos a utilizar */
     font-family: 'mifuente';
@@ -178,3 +166,14 @@ h3{
     padding: 5px;
 }    
 
+@media screen and (min-width: 400px) {
+    #responsive , #standard , #design {
+        border: 2px solid black;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .seccion{
+        border: 5px solid gray;
+    }
+}
