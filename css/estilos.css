@@ -176,6 +176,9 @@ h3{
     nav{
         flex-direction: row;
     }
+    .pagina{
+        flex-direction: row;
+    }
 }
 @media screen and (max-width: 900px) {
     .seccion{
