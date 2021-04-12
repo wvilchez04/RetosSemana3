@@ -88,6 +88,7 @@ flex-grow: 1;
 @media screen and (max-width: 900px) {
     .seccion{
         border: 5px solid gray;
-        background: brown;
+        background-color: mediumslateblue;
+        color: white;
     }
 }
