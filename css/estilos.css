@@ -178,6 +178,8 @@ h3{
     }
     .pagina{
         flex-direction: row;
+        height: 360px;
+        text-align: center;
     }
 }
 @media screen and (max-width: 900px) {
