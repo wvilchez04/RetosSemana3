@@ -79,7 +79,7 @@ flex-grow: 1;
     align-items: center;
     flex-grow: 1;
 }
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 480px) {
     #responsive , #standard , #design {
         border: 2px solid black;
         margin-bottom: 20px;
