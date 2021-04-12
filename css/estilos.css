@@ -28,6 +28,7 @@
     color: white;
     text-align: center;
     line-height: 60px; 
+    justify-content: space-evenly;
 }
 #cabecera > h2{
     font-size: 40px;
@@ -166,7 +167,7 @@ h3{
     padding: 5px;
 }    
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 480px) {
     #responsive , #standard , #design {
         border: 2px solid black;
         margin-bottom: 20px;
